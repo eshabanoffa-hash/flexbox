@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #043873; 
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 16px 0;
+    width: 100%;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+}
+
+.links a {
+    color: white;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    gap: 24px;
+}
+
+.yellow-btn {
+    height: 60px;
+    width: 126px;
+    background-color: #FFE492;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.blue-btn {
+    height: 60px;
+    padding: 0 40px;
+    background-color: #4F9CF9;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-section {
+    padding: 140px 0;
+    background-color: #043873; 
+}
+
+.hero-section .text-block h2 {
+    color: white;
+    font-size: 64px;
+    line-height: 1.2;
+}
+
+.hero-section .text-block p {
+    color: white;
+    font-size: 18px;
+    margin: 24px 0 60px;
+}
+
+
+.project-managment , .work-together{
+    padding: 140px 0;
+    background-color: white; 
+    width: 100%;
+}
+
+.project-managment .text-block h2 , .work-together .text-block h2 {
+    color: #212529; 
+    font-size: 64px;
+    line-height: 1.2;
+}
+
+.project-managment .text-block p , .work-together .text-block p{
+    color: #212529; 
+    font-size: 18px;
+    margin: 24px 0 40px;
+}
+
+.img-block {
+    width: 748px;
+    height: 549px;
+    background-color: #C4DEFD; 
+    flex-shrink: 0;
+}
+
+.text-block {
+    max-width: 650px;
+}
+
+.heading {
+    position: relative;
+    display: inline-block;
+}
+
+.element {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: 1;
+    width: 100%; 
+}
+
+.project-managment h2 {
+    position: relative;
+    z-index: 2;
+}
+.img{
+    width: 710px;
+    height: 661px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-circle{
+    width: 387px;
+    height: 387px;
+    border: 1px dashed black;
+    border-radius: 50%;
+    position: relative;
+}
+.outer-circle{
+    width: 661px;
+    height: 661px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed black;
+    border-radius: 50%;
+    position: relative;
+}
+.dot {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+}
+.yellow{
+    background-color: yellow;
+    top: 13%;
+    left: 4.8%;
+}
+
+.green{
+    background-color: green;
+    top: -20px;
+    left: 40%;
+}
+.red{
+    background-color: red;
+    top: 350px;
+    left: -35px;
+}
+.top-blue{
+    background-color: blue;
+    top: 60px;
+    right: 40px;
+}
+.outer-green{
+    background-color: green;
+    bottom: 50px;
+    right: 60px;
+}
+.bottom-blue{
+    background-color: blue;
+    bottom: 60px;
+    left: 50px;
+}
+.orange{
+    background-color: orange;
+    bottom: -15px;
+    right: 150px;
+
+}
+.left-blue{
+    background-color: blue;
+    left: -28px;
+    bottom: 150px;
+}
+.right-blue{
+    background-color: blue;
+    right: -28px;
+    bottom: 140px;
+}
